@@ -17,16 +17,16 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: myapp_development
+  database: d78rinqr7hb36f
   pool: 5
-  username: 
-  password: bruh
+  username: ghxxbqtdbwqflv
+  password: 68dc757afd33ef0f5702ccc175e851faf3ef21212809be1264354f1807348a97
   timeout: 5000
- 
+  uri: postgres://ghxxbqtdbwqflv:68dc757afd33ef0f5702ccc175e851faf3ef21212809be1264354f1807348a97@ec2-52-87-107-83.compute-1.amazonaws.com:5432/d78rinqr7hb36f
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  host: localhost
+  host: ec2-52-87-107-83.compute-1.amazonaws.com
  
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
