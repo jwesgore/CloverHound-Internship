@@ -24,6 +24,7 @@
 	text-decoration: none;
 }
 
+
 html {
 	font-family: "Verdana";
 	background-color: lightgray;
@@ -33,4 +34,15 @@ a {
 	color: #3eb489;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+
+div {
+	border-radius: 5px;
+	border: 1px ;
+}
+
+button {
+	border-radius: 5px;
+	border: 1px solid #3eb489;
 }
