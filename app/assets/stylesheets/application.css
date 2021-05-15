@@ -14,21 +14,23 @@
  *= require_self
  */
 
-html {
-	font-family: "Verdana";
-}
-
-
 .header {
 	color: #3eb489;
 	background-color: #f4f4f4;
 	margin: 0;
 }
 
+.header a{
+	text-decoration: none;
+}
+
+html {
+	font-family: "Verdana";
+	background-color: lightgray;
+}
+
 a {
 	color: #3eb489;
-	text-decoration: none;
 	padding-left: 10px;
 	padding-right: 10px;
-
 }

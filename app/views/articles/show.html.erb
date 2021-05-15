@@ -1,6 +1,8 @@
-<h1><%= @article.title %></h1>
+<div class="article">
+	<h1><%= @article.title %></h1>
 
-<p><%= @article.body %></p>
+	<p><%= @article.body %></p>
+</div>
 
 <div>
 	<button><%= link_to "Edit", edit_article_path(@article) %></button>
@@ -9,8 +11,10 @@
         	data: { confirm: "Are you sure?" } %></button>
 </div>
 
+<br>
+
 <h2>Comments</h2>
 <%= render @article.comments %>
 
-<h2>Add a comment:</h2>
+<h3>Add a comment:</h3>
 <%= render 'comments/form' %>
