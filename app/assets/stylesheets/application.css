@@ -24,6 +24,10 @@
 	text-decoration: none;
 }
 
+.comment {
+	background-color: #f4f4f4;
+}
+
 
 html {
 	font-family: "Verdana";
