@@ -1,5 +1,10 @@
 <div class="comment">
-  	<div class="comment-body"><%= comment.body %></div>
+	
+  	<p class="comment-body">
+  		<label class="comment-user"><%= comment.commenter %></label>
+  		<%= comment.body %>
+  	</p>
+  	
   	<%= link_to 'Delete', [comment.article, comment],
               method: :delete,
               data: { confirm: "Are you sure?" } %>

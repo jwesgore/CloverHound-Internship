@@ -4,14 +4,21 @@
 
 .comment {
 	background-color: #f4f4f4;
-
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 .comment a{
 	text-decoration: none;
+	margin-left: 1%; 
+}
+
+.comment-user {
+	font-weight: bold;
 }
 
 .comment-body{
-	padding-left: 10px;
-	padding-bottom: 5px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 5px;
 }
