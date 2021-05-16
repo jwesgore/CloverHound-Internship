@@ -28,6 +28,11 @@
 	background-color: #f4f4f4;
 }
 
+.article-select a {
+	text-decoration: none;
+	font-size: 110%;
+}
+
 
 html {
 	font-family: "Verdana";
