@@ -15,18 +15,37 @@
  */
 
 
- #header-title {
+ #header-left {
  	margin-left: 1%;
  }
 
 .header {
 	color: #3eb489;
 	background-color: #f4f4f4;
+
+	padding-bottom: 3px;
 	margin: 1%;
 }
 
-.header a{
-	text-decoration: none;
+.button {
+	
+	display: inline;
+	margin-right: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	color: #3eb489;
+	border-radius: 5px;
+	border: 1px solid #3eb489;
+
+}
+
+.button_to, .button_to div {
+  	display: inline;
+}
+
+.button:hover {
+	background: lightgray;
 }
 
 .article-select {
@@ -57,7 +76,3 @@ div {
 	border: 1px;
 }
 
-button {
-	border-radius: 5px;
-	border: 1px solid #3eb489;
-}

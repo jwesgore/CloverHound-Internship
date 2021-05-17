@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blog</title>
+	<title>Cloverhound: Wes</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<%= csrf_meta_tags %>
 	<%= csp_meta_tag %>
@@ -13,10 +13,10 @@
 <body>
 
 	<div class=header>
-		<h2 id=header-title>Cloverhound Blog: Wes</h2>
+		<h2 id=header-left>Cloverhound Blog: Wes</h2>
 
-		<button id=header-title> <%= link_to "Home", root_path %> </button>
-		<button> <%= link_to "New Article", new_article_path %> </button>
+		<%= button_to "Home", root_path, class:"button" , id:"header-left", :method => "get" %>
+		<%= button_to "New Article", new_article_path, class:"button", :method => "get" %>
 
 	</div>
 
