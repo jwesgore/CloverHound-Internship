@@ -15,7 +15,7 @@
  */
 
 
- #header-left {
+ #left {
  	margin-left: 1%;
  }
 
@@ -23,16 +23,16 @@
 	color: #3eb489;
 	background-color: #f4f4f4;
 
-	padding-bottom: 3px;
+	padding-bottom: .5%;
 	margin: 1%;
 }
 
 .button {
 	
 	display: inline;
-	margin-right: 0;
 	padding-left: 10px;
 	padding-right: 10px;
+	min-width: 2%;
 
 	color: #3eb489;
 	border-radius: 5px;

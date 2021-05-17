@@ -3,10 +3,10 @@
 
 	<p id="article-body"><%= @article.body %></p>
 
-	<button><%= link_to "Edit", edit_article_path(@article) %></button>
-	<button><%= link_to "Delete", article_path(@article), 
+	<%= button_to "Edit", edit_article_path(@article), class:"button", id:"left", method: :get %>
+	<%= button_to "Delete", article_path(@article), class:"button",
 			method: :delete,
-        	data: { confirm: "Are you sure?" } %></button>
+        	data: { confirm: "Are you sure?" } %>
 </div>
 
 <br>
@@ -14,8 +14,9 @@
 <h2>Comments</h2>
 <%= render @article.comments %>
 
-<p style="font-weight: bold;">Add a comment:</p>
-<%= render 'comments/form' %>
-
+<div class="add-comment">
+	<p style="font-weight: bold;">Add a comment:</p>
+	<%= render 'comments/form' %>
+</div>
 
 
